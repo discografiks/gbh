@@ -181,13 +181,13 @@ nav ul li a.current {
 }
 /* About Info */
 #about-info {
-  margin: 80px;
+  margin: 20px;
 }
 #about-info .info-right {
   float: right;
   width: 35%;
   min-height: 100%;
-  padding-left: 20px;
+  padding: 10px;
 }
 #about-info .info-left img{
   display: block;
@@ -197,11 +197,12 @@ nav ul li a.current {
 #about-info .info-left {
   float: left;
   width: 65%;
+  padding: 10px;
   min-height: 100%;
 }
 /* Testimonials */
 #testimonials {
-  height: 800px;
+  height: 100%;
   background: url('../img/test-bg.jpeg') no-repeat center center/cover;
   padding-top:40px;
 }
@@ -235,7 +236,8 @@ nav ul li a.current {
 
 /* Contact Us */
 #contact-form {
-  margin: 100px;
+  margin: 40px auto;
+  max-width: 550px;
 }
 #contact-form .form-group {
   margin-bottom: 20px;
